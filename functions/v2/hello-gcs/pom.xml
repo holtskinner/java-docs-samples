@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  Copyright 2021 Google LLC
+  Copyright 2023 Google LLC
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -63,6 +63,11 @@
       <scope>compile</scope>
     </dependency>
 
+    <dependency>
+      <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloudevent-types</artifactId>
+      <version>0.7.0</version>
+    </dependency>
     <!-- The following dependencies are only required for testing -->
     <dependency>
       <groupId>com.google.truth</groupId>
