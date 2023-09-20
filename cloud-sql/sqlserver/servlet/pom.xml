@@ -58,7 +58,7 @@
     <dependency>
       <groupId>com.google.cloud.sql</groupId>
       <artifactId>cloud-sql-connector-jdbc-sqlserver</artifactId>
-      <version>1.13.1</version>
+      <version>1.14.0</version>
     </dependency>
     <dependency>
       <groupId>com.zaxxer</groupId>
@@ -107,7 +107,7 @@
       <plugin>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
-        <version>11.0.15</version>
+        <version>11.0.16</version>
         <configuration>
           <scanIntervalSeconds>1</scanIntervalSeconds>
         </configuration>
